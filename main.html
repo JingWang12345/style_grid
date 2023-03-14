@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: blue;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: rgb(187, 28, 70);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: aliceblue;
+            color: black;
+        }
+
+        @media screen and (max-width:500px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+
+            .topnav a:hover {
+                background-color: brown;
+                color: rgb(30, 18, 2);
+
+            }
+            }
+    </style>
+</head>
+
+<body>
+    <h2>Responsive navigation menu</h2>
+    <p>Responsive the browser</p>
+
+    <div class="topnav">
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </div>
+
+</body>
+
+</html>
